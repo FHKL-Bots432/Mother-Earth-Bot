@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('𝗙𝗶𝗹𝗺𝘆 𝗛𝗮𝗻𝗴𝗮𝗺𝗮', url='https://t.me/Filmy_hangama')
             ],
             [
-                InlineKeyboardButton('𝙷𝚎𝚕𝚙', url=f"https://t.me/{temp.U_NAME}?start=help"),
+                InlineKeyboardButton('ʜᴇʟᴘ', url=f"https://t.me/{temp.U_NAME}?start=help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -42,13 +42,13 @@ async def start(client, message):
         await client.send_message(LOG_CHANNEL, script.LOG_TEXT_P.format(message.from_user.id, message.from_user.mention))
     if len(message.command) != 2:
         buttons = [[
-            InlineKeyboardButton('➕ 𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥𝙨', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥𝙨 😇', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝗙𝗶𝗹𝗺𝘆 𝗛𝗮𝗻𝗴𝗮𝗺𝗮', url='https://t.me/Filmy_hangama')
+            InlineKeyboardButton('🔍sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🐱‍👤 𝗙𝗶𝗹𝗺𝘆 𝗛𝗮𝗻𝗴𝗮𝗺𝗮', url='https://t.me/Filmy_hangama')
             ],[
-            InlineKeyboardButton('𝙷𝚎𝚕𝚙', callback_data='help'),
-            InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -67,15 +67,18 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🤖 Join Updates Channel", url=invite_link.invite_link
+                    "Join 𝗙𝗶𝗹𝗺𝘆 𝗛𝗮𝗻𝗴𝗮𝗺𝗮", url=invite_link.invite_link
                 )
             ]
         ]
 
         if message.command[1] != "subscribe":
-            kk, file_id = message.command[1].split("_", 1)
-            pre = 'checksubp' if kk == 'filep' else 'checksub' 
-            btn.append([InlineKeyboardButton(" 🔄 Try Again", callback_data=f"{pre}#{file_id}")])
+            try:
+            	kk, file_id = message.command[1].split("_", 1)
+            	pre = 'checksubp' if kk == 'filep' else 'checksub' 
+            	btn.append([InlineKeyboardButton(" 🔄 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧", callback_data=f"{pre}#{file_id}")])
+            except IndexError:
+                btn.append([InlineKeyboardButton(" 🔄 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧", url=f"https://t.me/{temp.U_NAME}/{message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
             text="**Please Join My Updates Channel to use this Bot!**",
@@ -85,13 +88,13 @@ async def start(client, message):
         return
     if len(message.command) == 2 and message.command[1] in ["subscribe", "error", "okay", "help"]:
         buttons = [[
-            InlineKeyboardButton('➕ 𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥𝙨', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton('𝘼𝙙𝙙 𝙈𝙚 𝙏𝙤 𝙔𝙤𝙪𝙧 𝙂𝙧𝙤𝙪𝙥𝙨 😇', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🔍 𝚂𝚎𝚊𝚛𝚌𝚑', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('𝗙𝗶𝗹𝗺𝘆 𝗛𝗮𝗻𝗴𝗮𝗺𝗮', url='https://t.me/Filmy_hangama')
+            InlineKeyboardButton('sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('🐱‍👤 𝗙𝗶𝗹𝗺𝘆 𝗛𝗮𝗻𝗴𝗮𝗺𝗮', url='https://t.me/TeamEvamaria')
             ],[
-            InlineKeyboardButton('𝙷𝚎𝚕𝚙', callback_data='help'),
-            InlineKeyboardButton('𝙰𝚋𝚘𝚞𝚝', callback_data='about')
+            InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -327,7 +330,7 @@ async def delete(bot, message):
                 'mime_type': media.mime_type
             })
             if result.deleted_count:
-                await msg.edit('File is successfully deleted from database')
+                await msg.edit('File is successfully deleted from database 🥴')
             else:
                 await msg.edit('File not found in database')
 
