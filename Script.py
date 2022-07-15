@@ -1,6 +1,7 @@
 class script(object):
-    START_TXT = """𝐘𝐨..𝐘𝐨.. {} 🙋, I'm Powerful Movie-Search Bot You Can Use Me As A Auto-filter Bot In Your Group ..
-Now I cAN wORK oNLY fOR""<a herf=https://t.me/FHKL_Team> FHKL Team </a>""
+    START_TXT = """𝐘𝐨..𝐘𝐨.. {} 🙋, I'm Powerful Movie-Search Bot You Can Use Me As A inline search bot ..
+
+Now I cAN wORK oNLY fOR "<a herf=https://t.me/FHKL_Team>FHKL Team </a>"
 
 ⚠️More Help Check Help Button Below
 
