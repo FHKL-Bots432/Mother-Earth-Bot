@@ -82,14 +82,12 @@ these are the extra features of Eva Maria
 • /id - <code>get id of a specifed user.</code>
 • /info  - <code>get information about a user.</code>
 • /imdb  - <code>get the film information from IMDb source.</code>
-• /search  - <code>get the film information from various sources.</code>
-    Fs_TXT = """Help: <b>File Store</b>
-   - Used TO sTORE Files Safely 
+• /search  - <code>get the film information from various sources.</code> """
+    FS_TXT = """Help: <b>File Store</b>
+        - Used TO sTORE Files Safely.
 
-• /batch - to create link for multiple posts
-• /link - to create link for one post """    
-    
-    
+• /batch - <code>to create link for multiple posts<code>
+• /link - <code>to create link for one post<code> """  
     ADMIN_TXT = """Help: <b>Admin mods</b>
 
 <b>NOTE:</b>
