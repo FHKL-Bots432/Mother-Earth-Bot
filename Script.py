@@ -1,7 +1,6 @@
 class script(object):
     START_TXT = """𝐘𝐨..𝐘𝐨.. {} 🙋, I'm Powerful Movie-Search Bot You Can Use Me As A Auto-filter Bot In Your Group ..
-
-Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provide Movies There...🤓
+Now I cAN wORK oNLY fOR""<a herf=https://t.me/FHKL_Team> FHKL Team </a>""
 
 ⚠️More Help Check Help Button Below
 
@@ -11,7 +10,7 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
     ABOUT_TXT = """╭━━━━━━━━━━━━━━━➣ 
 ┣⪼ Mʏ Nᴀᴍᴇ - 𐌑᧐ᴛɦᥱr Eᥲrᴛɦ
 ┣⪼ ғ ʜ - ""<a href=http://t.me/Filmy_Hangama>ғɪʟᴍʏ ʜᴀɴɢᴀᴍᴀ</a>""
-┣⪼ Gʀᴏᴜᴘ -   ""<a herf=https://t.me/LegendsRequest> ClIck Here </a>""
+┣⪼ Gʀᴏᴜᴘ -   ""<a herf=https://t.me/LegendsRequest>ClIck Here </a>""
 ┣⪼ Lɪʙʀᴀʀʀʏ - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ┣⪼ Lᴀɴɢᴜᴀɢᴇ - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ┣⪼ Dᴀᴛᴀ Bᴀsᴇ - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -21,7 +20,7 @@ Its Easy To Use Me; Just Add Me To Your Group As Admin, Thats All, i will Provid
     SOURCE_TXT = """<b>NOTE:</b>
 NOTE:
 - 𝑰 𝒂𝒎 𝒏𝒐𝒕 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
-- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - ""<a herf=https://t.me/+SuKq6KMnVa4yZTJl> F O O L </a>""
+- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - ""<a herf=https://t.me/SourceLoL> F O O L </a>""
 
 <b> 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 </b> 
  ""<a href= https://t.me/LegendsRequest>⌠ 🅛 🅡 ⌡ </a>"""
