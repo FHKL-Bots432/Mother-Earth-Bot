@@ -423,11 +423,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('𝙼𝚊𝚗𝚞𝚊𝚕 𝙵𝚒𝚕𝚝𝚎𝚛', callback_data='manuelfilter'),
             InlineKeyboardButton('𝙰𝚞𝚝𝚘 𝙵𝚒𝚕𝚝𝚎𝚛', callback_data='autofilter'),
-            InlineKeyboardButton('𝙵𝚒le Store', callback_data='filestore'),
         ], [
             InlineKeyboardButton('𝙲𝚘𝚗𝚗𝚎𝚌𝚝𝚒𝚘𝚗', callback_data='coct'),
             InlineKeyboardButton('Ｅｘｔｒａ Ｍｏｄｓ', callback_data='extra')
         ], [
+            InlineKeyboardButton('𝙵𝚒le Store', callback_data='filestore'),
             InlineKeyboardButton('𝖧𝗈𝗆𝖾', callback_data='start'),
             
         ]]
