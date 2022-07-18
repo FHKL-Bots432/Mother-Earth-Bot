@@ -425,7 +425,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙲𝚘𝚗𝚗𝚎𝚌𝚝𝚒𝚘𝚗', callback_data='coct'),
             InlineKeyboardButton('Ｅｘｔｒａ Ｍｏｄｓ', callback_data='extra')
         ], [
-            InlineKeyboardButton('🔮 Status', callback_data='stats')
+            InlineKeyboardButton('🔮 Status', callback_data='stats'),
             InlineKeyboardButton('𝙵𝚒le Store', callback_data='klmo'),
             InlineKeyboardButton('𝖧𝗈𝗆𝖾', callback_data='start'),
             
