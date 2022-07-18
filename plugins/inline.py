@@ -101,9 +101,11 @@ async def answer(bot, query):
 
 
 def get_reply_markup(query):
+     url = 't.me/share/url?url=' + quote(SHARE_BUTTON_TEXT.format(username=username))
     buttons = [
         [
             InlineKeyboardButton('🔎 Search again', switch_inline_query_current_chat=query)
+            InlineKeyboardButton('Share Me ↗', url=url)
         ]
         ]
     return InlineKeyboardMarkup(buttons)
