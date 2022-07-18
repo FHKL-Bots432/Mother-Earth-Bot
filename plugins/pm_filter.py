@@ -427,7 +427,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙲𝚘𝚗𝚗𝚎𝚌𝚝𝚒𝚘𝚗', callback_data='coct'),
             InlineKeyboardButton('Ｅｘｔｒａ Ｍｏｄｓ', callback_data='extra')
         ], [
-            InlineKeyboardButton('𝙵𝚒le Store', callback_data='sfilestore'),
+            InlineKeyboardButton('𝙵𝚒le Store', callback_data='klmo'),
             InlineKeyboardButton('𝖧𝗈𝗆𝖾', callback_data='start'),
             
         ]]
@@ -502,7 +502,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode='html'
         )
-    elif query.data == "sfilestores":
+    elif query.data == "klmo":
         buttons = [[
             InlineKeyboardButton('👩‍🦯 Back', callback_data='help')
         ]]
