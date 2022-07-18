@@ -330,7 +330,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             alert = alert.replace("\\n", "\n").replace("\\t", "\t")
             await query.answer(alert, show_alert=True)
     if query.data.startswith("file"):
-        ident, file_id = query.data.split("-")
+        ident, file_id = query.data.split("#")
         files_ = await get_file_details(file_id)
         if not files_:
             return await query.answer('No such file exist.')
@@ -427,6 +427,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('𝙲𝚘𝚗𝚗𝚎𝚌𝚝𝚒𝚘𝚗', callback_data='coct'),
             InlineKeyboardButton('Ｅｘｔｒａ Ｍｏｄｓ', callback_data='extra')
         ], [
+             InlineKeyboardButton('🔮 Status', callback_data='stats')
             InlineKeyboardButton('𝙵𝚒le Store', callback_data='klmo'),
             InlineKeyboardButton('𝖧𝗈𝗆𝖾', callback_data='start'),
             
