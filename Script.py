@@ -10,8 +10,8 @@ Now I cAN wORK oNLY fOR <a herf=https://t.me/FHKL_Team> FHKL Team </a>
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙼𝚈 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """╭━━━━━━━━━━━━━━━➣ 
 ┣⪼ Mʏ Nᴀᴍᴇ - 𐌑᧐ᴛɦᥱr Eᥲrᴛɦ
-┣⪼ ғ ʜ - ""<a href=http://t.me/Filmy_Hangama>ғɪʟᴍʏ ʜᴀɴɢᴀᴍᴀ</a>""
-┣⪼ Gʀᴏᴜᴘ -   ""<a herf=https://t.me/LegendsRequest>ClIck Here </a>""
+┣⪼ ғ ʜ - <a href=http://t.me/Filmy_Hangama>ғɪʟᴍʏ ʜᴀɴɢᴀᴍᴀ</a>
+┣⪼ Gʀᴏᴜᴘ - <a herf=https://t.me/LegendsRequest>ClIck Here </a>
 ┣⪼ Lɪʙʀᴀʀʀʏ - 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼
 ┣⪼ Lᴀɴɢᴜᴀɢᴇ - 𝙿𝚈𝚃𝙷𝙾𝙽 𝟹
 ┣⪼ Dᴀᴛᴀ Bᴀsᴇ - 𝙼𝙾𝙽𝙶𝙾 𝙳𝙱
@@ -21,10 +21,10 @@ Now I cAN wORK oNLY fOR <a herf=https://t.me/FHKL_Team> FHKL Team </a>
     SOURCE_TXT = """<b>NOTE:</b>
 NOTE:
 - 𝑰 𝒂𝒎 𝒏𝒐𝒕 𝒐𝒑𝒆𝒏 𝒔𝒐𝒖𝒓𝒄𝒆 𝒑𝒓𝒐𝒋𝒆𝒄𝒕. 
-- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - ""<a herf=https://t.me/SourceLoL> F O O L </a>""
+- ՏOᑌᖇᑕᗴ ᑕOᗪᗴ - <a herf=https://t.me/SourceLoL> F O O L </a>
 
 <b> 𝙎𝙐𝙋𝙋𝙊𝙍𝙏 </b> 
- ""<a href= https://t.me/LegendsRequest>⌠ 🅛 🅡 ⌡ </a>"""
+ <a href= https://t.me/LegendsRequest>⌠ 🅛 🅡 ⌡ </a> """
     MANUELFILTER_TXT = """Help: <b>Filters</b>
 
 - Filter is the feature were users can set automated replies for a particular keyword and 𐌑᧐ᴛɦᥱr Eᥲrᴛɦ will respond whenever a keyword is found the message
@@ -76,7 +76,7 @@ NOTE:
     EXTRAMOD_TXT = """Help: <b>Extra Modules</b>
 
 <b>NOTE:</b>
-these are the extra features of Eva Maria
+these are the extra features of Me
 
 <b>Commands and Usage:</b>
 • /id - <code>get id of a specifed user.</code>
